@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth bg-zinc-950 text-zinc-50 antialiased selection:bg-emerald-500/30 selection:text-emerald-400">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SviatTech — Premium Infrastructure & Python Automation Engineering. Scalable architecture, high-throughput pipelines, and bespoke DevOps solutions.">
+    <meta name="robots" content="index, follow">
+    <title>SviatTech | Infrastructure & Python Automation Contractor</title>
+    
+    <!-- Tailwind Architecture CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'monospace'],
+                    },
+                    keyframes: {
+                        'fade-in-up': {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        'custom-pulse': {
+                            '0%, 100%': { opacity: '1', transform: 'scale(1)' },
+                            '50%': { opacity: '.4', transform: 'scale(1.15)' }
+                        }
+                    },
+                    animation: {
+                        'telemetry-pulse': 'custom-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'fade-in-up': 'fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Typography Ingestion -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="relative min-h-full font-sans bg-zinc-950 text-zinc-400 overflow-x-hidden selection:bg-emerald-500/20 selection:text-emerald-300">
+
+    <!-- Global Layout Wrapper -->
+    <div class="relative min-h-screen flex flex-col justify-between">
+        
+        <!-- Ambient Background Telemetry Depth (Premium Minimalist Aura) -->
+        <div class="absolute inset-0 pointer-events-none overflow-hidden z-0" aria-hidden="true">
+            <div class="absolute -top-40 -left-40 w-96 h-96 bg-emerald-500/5 rounded-full blur-[128px]"></div>
+            <div class="absolute top-1/3 right-10 w-[400px] h-[400px] bg-slate-500/5 rounded-full blur-[160px]"></div>
+        </div>
+
+        <!-- Sticky Translucent Header -->
+        <header class="sticky top-0 z-50 w-full border-b border-zinc-900/50 bg-zinc-950/40 backdrop-blur-md transition-all duration-300">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                
+                <!-- Typographic Brandmark -->
+                <a href="#hero" class="flex items-center space-x-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded" aria-label="SviatTech Home">
+                    <span class="font-mono font-bold text-lg tracking-tight text-zinc-100 transition-colors duration-200 group-hover:text-emerald-400">
+                        Sviat<span class="text-emerald-500">Tech</span>
+                    </span>
+                    <span class="font-mono text-xs text-zinc-600 group-hover:text-zinc-400 transition-colors duration-200" aria-hidden="true">_</span>
+                </a>
+
+                <!-- Live Availability Telemetry Badge -->
+                <div class="flex items-center space-x-2.5 bg-zinc-900/80 border border-zinc-800/60 rounded-full px-3.5 py-1.5 shadow-sm shadow-black/40" role="status" aria-live="polite">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-telemetry-pulse absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span class="font-mono text-[11px] font-medium tracking-wide text-zinc-300 uppercase">
+                        Available for CET Contracts
+                    </span>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Main Content Wrapper / Grid Layout Enclosure -->
+        <main id="content" class="relative flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
+            
+            <!-- Hero Section -->
+            <section id="hero" class="w-full py-20 lg:py-32 flex flex-col items-start justify-center opacity-0 animate-fade-in-up">
+                
+                <!-- Technical Subline Keywords -->
+                <div class="flex flex-wrap gap-2 mb-6 sm:mb-8 text-zinc-400" aria-label="Core Specializations">
+                    <span class="font-mono text-xs tracking-tight border border-zinc-800/80 bg-zinc-900/40 px-3 py-1 rounded shadow-sm">
+                        Linux Systems
+                    </span>
+                    <span class="font-mono text-xs tracking-tight border border-zinc-800/80 bg-zinc-900/40 px-3 py-1 rounded shadow-sm">
+                        Async Python
+                    </span>
+                    <span class="font-mono text-xs tracking-tight border border-zinc-800/80 bg-zinc-900/40 px-3 py-1 rounded shadow-sm">
+                        Infrastructure as Code
+                    </span>
+                    <span class="font-mono text-xs tracking-tight border border-zinc-800/80 bg-zinc-900/40 px-3 py-1 rounded shadow-sm">
+                        Infrastructure Hardening
+                    </span>
+                </div>
+
+                <!-- B2B Semantic Headline -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-zinc-100 max-w-4xl leading-[1.1] mb-6">
+                    Production-Grade Systems <span class="bg-gradient-to-r from-emerald-400 via-emerald-200 to-zinc-100 bg-clip-text text-transparent">Infrastructure & Automation Engineering.</span>
+                </h1>
+
+                <!-- Core Value Proposition Subtitle -->
+                <p class="text-zinc-400 text-lg sm:text-xl max-w-3xl leading-relaxed mb-10 font-normal">
+                    Helping distributed platforms optimize Linux server topology, eliminate operational bottlenecks, and build resilient, asynchronous data pipelines on a flexible contractual basis.
+                </p>
+
+                <!-- Action Hub -->
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+                    <a href="#engagement" class="inline-flex items-center justify-center font-mono text-sm font-medium tracking-wide bg-slate-800 text-emerald-400 border border-emerald-500/30 px-8 py-4 rounded transition-all duration-300 hover:bg-slate-700 hover:border-emerald-400 shadow-[0_0_20px_rgba(16,185,129,0.03)] hover:shadow-[0_0_30px_rgba(16,185,129,0.1)] focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                        Request Technical Briefing
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- Core Capabilities Section -->
+            <section id="capabilities" class="w-full py-16 border-t border-zinc-900/60">
+                
+                <!-- Section Architecture Branding -->
+                <div class="mb-12">
+                    <span class="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-500 block mb-3">
+                        01 // Operational Pillars
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-100">
+                        Core Engineering Competencies
+                    </h2>
+                </div>
+
+                <!-- 3-Column Structural Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    
+                    <!-- Capability Card One -->
+                    <article class="flex flex-col justify-between bg-zinc-900/20 border border-zinc-900 hover:border-zinc-800/80 rounded p-6 transition-all duration-300 group hover:bg-zinc-900/30">
+                        <div>
+                            <h3 class="font-sans text-lg font-semibold tracking-tight text-zinc-200 mb-3 group-hover:text-emerald-400 transition-colors duration-200">
+                                Infrastructure & Systems Automation
+                            </h3>
+                            <p class="font-sans text-sm text-zinc-400 leading-relaxed mb-8">
+                                Custom self-healing bash and python daemons, automated log rotation strategies, resource threshold telemetry, and strict environment isolation.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-zinc-900/80">
+                            <span class="font-mono text-[11px] uppercase tracking-wider text-zinc-600 block mb-1">Deployment Target</span>
+                            <span class="font-mono text-xs text-zinc-300 font-medium">
+                                Linux (Ubuntu/Debian/Arch), Bash, SSH Hardening
+                            </span>
+                        </div>
+                    </article>
+
+                    <!-- Capability Card Two -->
+                    <article class="flex flex-col justify-between bg-zinc-900/20 border border-zinc-900 hover:border-zinc-800/80 rounded p-6 transition-all duration-300 group hover:bg-zinc-900/30">
+                        <div>
+                            <h3 class="font-sans text-lg font-semibold tracking-tight text-zinc-200 mb-3 group-hover:text-emerald-400 transition-colors duration-200">
+                                High-Throughput Asynchronous Scripting
+                            </h3>
+                            <p class="font-sans text-sm text-zinc-400 leading-relaxed mb-8">
+                                Designing modular asynchronous processing layers, building resilient third-party API integrations, and optimizing high-concurrency event loops.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-zinc-900/80">
+                            <span class="font-mono text-[11px] uppercase tracking-wider text-zinc-600 block mb-1">Runtime Engine</span>
+                            <span class="font-mono text-xs text-zinc-300 font-medium">
+                                Python, asyncio, Pydantic, Loguru
+                            </span>
+                        </div>
+                    </article>
+
+                    <!-- Capability Card Three -->
+                    <article class="flex flex-col justify-between bg-zinc-900/20 border border-zinc-900 hover:border-zinc-800/80 rounded p-6 transition-all duration-300 group hover:bg-zinc-900/30">
+                        <div>
+                            <h3 class="font-sans text-lg font-semibold tracking-tight text-zinc-200 mb-3 group-hover:text-emerald-400 transition-colors duration-200">
+                                Environment Provisioning & DevOps
+                            </h3>
+                            <p class="font-sans text-sm text-zinc-400 leading-relaxed mb-8">
+                                Declarative Virtual Private Server (VPS) orchestration, secure network routing topologies, automated health checks, and deployment configuration management.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-zinc-900/80">
+                            <span class="font-mono text-[11px] uppercase tracking-wider text-zinc-600 block mb-1">Orchestration Vector</span>
+                            <span class="font-mono text-xs text-zinc-300 font-medium">
+                                Docker, Terraform, Cloudflare Routing
+                            </span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Selected Engagements Section -->
+            <section id="engagements" class="w-full py-16 border-t border-zinc-900/60">
+                
+                <!-- Section Architecture Branding -->
+                <div class="mb-12">
+                    <span class="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-500 block mb-3">
+                        02 // Proven Deployments
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-100">
+                        Selected Engagements
+                    </h2>
+                </div>
+
+                <!-- 2-Column Case Studies Grid Layout -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    
+                    <!-- Case Study One -->
+                    <article class="bg-zinc-900/10 border border-zinc-900 rounded p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-800/60 transition-all duration-300">
+                        <div>
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+                                <span class="self-start font-mono text-[11px] uppercase tracking-wider text-emerald-400/80 bg-emerald-950/40 border border-emerald-900/40 px-2.5 py-1 rounded">
+                                    Case Study // 01
+                                </span>
+                                <span class="font-mono text-xs text-zinc-500">
+                                    Context: Confidential FinTech Platform
+                                </span>
+                            </div>
+                            
+                            <h3 class="text-xl font-bold tracking-tight text-zinc-200 mb-4">
+                                Asynchronous Stream-Processing Optimization
+                            </h3>
+                            
+                            <div class="space-y-4 text-sm leading-relaxed">
+                                <p class="text-zinc-400">
+                                    <span class="font-mono text-xs font-semibold text-zinc-500 uppercase tracking-wide block mb-1">Scope</span>
+                                    Remedied high-volume data processing stalls under peak load by replacing legacy synchronous architectures with a custom asynchronous processing engine.
+                                </p>
+                                <p class="text-zinc-400">
+                                    <span class="font-mono text-xs font-semibold text-zinc-500 uppercase tracking-wide block mb-1">Implementation</span>
+                                    Engineered a modular, multi-threaded python event loop via <code class="font-mono text-xs text-emerald-400 bg-zinc-900/60 border border-zinc-800/40 px-1 rounded">asyncio</code>. Integrated strict memory-safeguard metrics and JSON-structured log routing to completely eliminate stream latency.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Case Study Two -->
+                    <article class="bg-zinc-900/10 border border-zinc-900 rounded p-6 sm:p-8 flex flex-col justify-between hover:border-zinc-800/60 transition-all duration-300">
+                        <div>
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+                                <span class="self-start font-mono text-[11px] uppercase tracking-wider text-emerald-400/80 bg-emerald-950/40 border border-emerald-900/40 px-2.5 py-1 rounded">
+                                    Case Study // 02
+                                </span>
+                                <span class="font-mono text-xs text-zinc-500">
+                                    Context: B2B Communication System
+                                </span>
+                            </div>
+                            
+                            <h3 class="text-xl font-bold tracking-tight text-zinc-200 mb-4">
+                                High-Availability VPS Infrastructure Overhaul
+                            </h3>
+                            
+                            <div class="space-y-4 text-sm leading-relaxed">
+                                <p class="text-zinc-400">
+                                    <span class="font-mono text-xs font-semibold text-zinc-500 uppercase tracking-wide block mb-1">Scope</span>
+                                    Restructured an unstable distributed server layer experiencing frequent service drop-offs and lacking centralized failure tracking.
+                                </p>
+                                <p class="text-zinc-400">
+                                    <span class="font-mono text-xs font-semibold text-zinc-500 uppercase tracking-wide block mb-1">Implementation</span>
+                                    Deployed automated health-monitoring daemons to audit system resources in real-time. Authored robust self-healing shell logic that automatically sandboxes and cold-restarts failing runtime services, achieving 99.9% uptime.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- NDA Security Notice Callout Box -->
+                <div class="bg-zinc-900/20 border border-zinc-900 rounded p-5 flex flex-col sm:flex-row items-start gap-4 max-w-4xl" role="note">
+                    <div class="flex-shrink-0 font-mono text-[10px] text-emerald-500 font-bold bg-emerald-950/40 border border-emerald-900/60 rounded px-2 py-0.5 uppercase tracking-widest mt-0.5">
+                        Security_Notice
+                    </div>
+                    <p class="font-sans text-xs sm:text-sm text-zinc-400 leading-relaxed">
+                        Note: To protect proprietary code and comply with active non-disclosure agreements, client identities and source code repositories are strictly confidential. Detailed structural logic and architectural methodologies can be discussed during technical alignment briefings.
+                    </p>
+                </div>
+
+            </section>
+
+            <!-- Initiate Engagement Section -->
+            <section id="engagement" class="w-full py-16 border-t border-zinc-900/60">
+                
+                <!-- Section Architecture Branding -->
+                <div class="mb-8">
+                    <span class="font-mono text-xs font-semibold uppercase tracking-widest text-emerald-500 block mb-3">
+                        03 // Inquire & Align
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-100">
+                        Initiate Engagement
+                    </h2>
+                </div>
+
+                <!-- Billing Terms Copy -->
+                <div class="max-w-2xl mb-8">
+                    <p class="text-sm leading-relaxed text-zinc-400">
+                        Contract terms and engagement agreements are officially managed under a registered Individual Entrepreneurship (<span class="text-zinc-200">ФОП / FOP</span>) framework, facilitating standard cross-border B2B corporate billing, simplified invoicing routing, and compliant legal execution.
+                    </p>
+                </div>
+
+                <!-- Interactive Contact Block -->
+                <div class="max-w-xl">
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                        <!-- Email Block -->
+                        <div class="flex-grow flex items-center bg-zinc-900/40 border border-zinc-900 rounded px-4 py-3.5 shadow-sm">
+                            <span class="font-mono text-xs text-zinc-500 mr-3 select-none" aria-hidden="true">ADDR:</span>
+                            <span id="target-email" class="font-mono text-sm text-zinc-200 tracking-tight font-medium select-all">
+                                contact@sviattech.dev
+                            </span>
+                        </div>
+                        
+                        <!-- Clipboard Interaction Button -->
+                        <button id="copy-btn" class="flex items-center justify-center font-mono text-xs font-semibold uppercase tracking-wider bg-zinc-900 border border-zinc-800 hover:border-emerald-500/40 hover:text-emerald-400 px-5 py-4 sm:py-3.5 rounded transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-emerald-500">
+                            Copy Email
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- Minimalist Semantically Isolated Footer -->
+        <footer class="relative z-10 w-full border-t border-zinc-900/60 bg-zinc-950/20 py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div class="flex flex-col items-start gap-1">
+                    <p class="font-mono text-xs text-zinc-500">
+                        &copy; 2026 SviatTech. All operations optimized.
+                    </p>
+                </div>
+                <div class="flex space-x-6 font-mono text-xs text-zinc-500">
+                    <span class="text-zinc-700">STABLE_RELEASE // v2.4.0</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Technical Interactivity Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const copyBtn = document.getElementById('copy-btn');
+            const emailElement = document.getElementById('target-email');
+
+            if (copyBtn && emailElement) {
+                copyBtn.addEventListener('click', async () => {
+                    const textToCopy = emailElement.textContent.trim();
+                    let copySuccess = false;
+
+                    // Optimized dual-mechanism copy strategy for sandbox environments
+                    if (navigator.clipboard && window.isSecureContext) {
+                        try {
+                            await navigator.clipboard.writeText(textToCopy);
+                            copySuccess = true;
+                        } catch (err) {
+                            copySuccess = false;
+                        }
+                    }
+
+                    // Fallback to legacy execCommand in case of iframe API limitations
+                    if (!copySuccess) {
+                        try {
+                            const tempTextArea = document.createElement("textarea");
+                            tempTextArea.value = textToCopy;
+                            tempTextArea.style.position = "fixed";
+                            tempTextArea.style.left = "-999999px";
+                            tempTextArea.style.top = "-999999px";
+                            document.body.appendChild(tempTextArea);
+                            tempTextArea.focus();
+                            tempTextArea.select();
+                            copySuccess = document.execCommand('copy');
+                            tempTextArea.remove();
+                        } catch (err) {
+                            copySuccess = false;
+                        }
+                    }
+
+                    if (copySuccess) {
+                        // Mutate state to feedback aesthetics
+                        const originalText = copyBtn.textContent;
+                        copyBtn.textContent = 'Copied!';
+                        copyBtn.classList.remove('border-zinc-800', 'text-zinc-400');
+                        copyBtn.classList.add('border-emerald-500/50', 'text-emerald-400', 'bg-emerald-950/10');
+
+                        setTimeout(() => {
+                            // Revert state to original parameters
+                            copyBtn.textContent = originalText;
+                            copyBtn.classList.add('border-zinc-800');
+                            copyBtn.classList.remove('border-emerald-500/50', 'text-emerald-400', 'bg-emerald-950/10');
+                        }, 2000);
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
